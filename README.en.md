@@ -2,6 +2,7 @@
 [![License](https://img.shields.io/github/license/leichaoL/touying-simpl-swufe)](https://github.com/leichaoL/touying-simpl-swufe/blob/main/LICENSE)
 
 # [English](README.en.md) | [中文说明](README.md)
+
 # Typst Touying Template for Southwestern University of Finance and Economics (SWUFE)
 
 A Typst version of the [SWUFE Beamer template](https://www.overleaf.com/latex/templates/swufe-beamer-theme/hysqbvdbpnsm).
@@ -34,8 +35,6 @@ The Web App does not have the fonts installed on local Windows or macOS systems,
 
 ![VSCode editing](imgs/vscode%20edit.webp)
 
-
-
 #### Terminal
 
 Install and initialize the project via the Typst official package manager:
@@ -58,7 +57,6 @@ To achieve the same display effect as the example, this template recommends usin
 
 **For [Typst Web App](https://typst.app) users**: The template defaults to using `Noto Serif CJK SC` as the Chinese font in the Web App. To ensure the display effect, it is recommended to upload the KaiTi font file; the template will automatically use KaiTi after uploading.
 
-
 ## Quick Start (From GitHub)
 
 ### Method 1: Direct File Copy
@@ -74,7 +72,7 @@ Copy [`lib.typ`](lib.typ) to your project root directory, then import it at the 
 Clone from GitHub and install as a local package for reuse in multiple projects (refer to [Typst documentation](https://github.com/typst/packages/blob/main/README.md)):
 
 ```bash
-git clone https://github.com/leichaol/touying-simpl-swufe.git {data-dir}/typst/packages/local/touying-simpl-swufe/0.2.0
+git clone https://github.com/leichaol/touying-simpl-swufe.git {data-dir}/typst/packages/local/touying-simpl-swufe/0.2.1
 ```
 
 Where `{data-dir}` is:
@@ -86,7 +84,7 @@ Where `{data-dir}` is:
 Then import in your document:
 
 ```typst
-#import "@local/touying-simpl-swufe:0.2.0": *
+#import "@local/touying-simpl-swufe:0.2.1": *
 ```
 
 ## Examples
@@ -108,7 +106,9 @@ This will generate `./examples/main.pdf`.
 ## Template Slide Functions and Main Configuration Options
 
 ### Template Slide Functions
+
 The template provides a series of functions for generating presentation slides, including:
+
 - `title-slide`: Used to generate the title page
 - `outline-slide`: Used to add a table of contents page
 - `focus-slide`: Used for a solid-color background focus page
@@ -122,7 +122,6 @@ The template provides a series of functions for generating presentation slides, 
 For usage methods, refer to [main.typ](examples/main.typ) in the examples directory.
 
 ### Main Configuration Options
-
 
 ```typst
 #show: swufe-theme.with(

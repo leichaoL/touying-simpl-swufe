@@ -1,6 +1,6 @@
 [package]
 name = "touying-simpl-swufe" 
-version = "0.2.0"
+version = "0.2.1"
 entrypoint = "lib.typ"
 authors = ["leichao <le.haibo@qq.com>"]
 description = "Touying slide theme for SWUFE (Southwestern University of Finance and Economics)"
