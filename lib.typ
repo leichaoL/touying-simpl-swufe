@@ -55,9 +55,14 @@
 /// Add shadow to a figure
 ///
 /// - fig (content): Figure or image environment
-#let shadow-figure(fig) = align(center)[
-  #shadowed(fill: none, radius: 0pt, shadow: 6pt, dx: 0pt, dy: 0pt)[#fig]
-]
+///
+/// - args (arguments): Additional arguments passed to `figure`.
+#let shadow-figure(fig, ..args) = figure(
+  align(center)[
+    #shadowed(fill: none, radius: 0pt, shadow: 6pt, dx: 0pt, dy: 0pt)[#fig]
+  ],
+  ..args,
+)
 
 /// Default slide function for the presentation.
 ///

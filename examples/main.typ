@@ -221,6 +221,7 @@ $ <eq>
 - 使用 `#shadow-figure()` 可以插入带阴影效果的图片，避免图片融入背景无法区分。
 #shadow-figure(
   image("../thumbnail.webp", width: auto, height: 80%),
+  caption: [Touying-Simpl-SWUFE 模板预览],
 )
 
 == 表格
