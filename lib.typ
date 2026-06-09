@@ -161,6 +161,7 @@
     let content-info = {
       set std.align(center + horizon)
       block(
+        width: 95%,
         fill: self.colors.primary,
         inset: 1.5em,
         radius: 0.5em,
